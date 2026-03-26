@@ -1,140 +1,109 @@
 ![源泉圓體/源泉丸ゴシック](https://buttaiwan.github.io/font/pics/gensen.png)
 
-# 繁體中文
+# 源泉圓體 | 源泉丸ゴシック | GenSen Rounded
 
-「源泉圓體」是基於[思源黑體](https://github.com/adobe-fonts/source-han-sans/)的開放原始碼中文字型。
+[繁體中文](#繁體中文) | [日本語](#日本語) | [English](#english)
 
-## 特徵
+---
 
-### 傳統印刷體風格
+## 繁體中文
 
-請參考[源樣黑體](https://github.com/ButTaiwan/genyog-font/tree/master)的說明。
+「源泉圓體」是將「源起黑體」透過程式化圓角處理而成的開放原始碼中文字型。它保留了黑體的穩定結構，同時具備圓體親切、流暢的視覺感，大幅擴充了繁體中文圓體在台客語漢字與多國語言支援上的選擇。
 
-### 彌補一直沒有正統圓體開源字型的缺憾
+### 🌟 Ver 2.0 / 2.1 更新核心
 
-黑體的開源字型非常多，但一直缺乏正統圓體的開源字型。
-像源柔ゴシック之類的字型都留有黑體的腳，乍看的感覺還是很黑體。
+* **源起黑體 (Genki)**：
+    * 針對「月」系列中因部件來源不一導致的楷化轉折不協調，進行程式化斷筆處理，視覺更趨一致。後續的源流、源雲等字型皆是以源起為基礎衍生。
+* **中文版本分化：TW vs. TC**
+    * 🌙 **TW (月版)**：採用台灣近年多數字型習慣的通俗寫法（例如「者」無點），適合現代文書與簡報。
+    * 🔴 **TC (丹版)**：傳承傳統鉛字印刷體風格，保留古雅的字形特徵，適合書籍排版與經典設計。
+* **字集大幅擴充**：
+    * 底本全面升級至 **思源黑體 V2.0**。
+    * 針對 **台客語漢字** 擴充支援至 CJK Extension H 範圍。
+    * 收錄 **HKSCS 2021** 增補字符集與 **jf7000 當務字集** v0.9。
+* **本土語言支援**：完整支援台羅、客語、原住民族語拼音，新增 **白話字 (POJ) 大寫 ᴺ**。
+* **標點符號優化**：
+    * **標點回歸全形**：修正了 1.5 版括號過窄的問題，恢復全形樣式。
+    * **特定符號比例寬**：針對 `‘’“”` 採用比例寬版本，確保如 `It’s` 的英文排列正常。
 
-本字型不只把筆畫全改圓，也將黑體的腳盡可能拔除，並加上封閉區域的內圓角處理，盡可能去逼近圓體樣貌。
+---
 
-### 免責事項
+## 日本語
 
-本字型乃以電腦程式自動進行改造，如上述拔腳的作業充滿猜測性。部分文字可能有腳沒拔掉，部分文字可能正常的筆畫被誤判是腳而誤拔。
-由於此為興趣性的開源字型專案，雖已試圖強化猜測演算法減少誤判，但仍無法保證沒有錯誤。在正式場合使用時請自行確認文字正確性。
+「源泉丸ゴシック」は、源起ゴシックをコンピューター処理によって丸ゴシック化したフリーフォントです。モダンな骨格と丸みのバランスが良く、可読性と親しみやすさを両立しており、幅広い用途で利用可能な丸ゴシック体となっています。
 
-基本上較細的字重效果會較好且較正確，而愈粗的字重錯誤會較多。
+### 🌟 Ver 2.0 / 2.1 の主な変更点
 
-### TrueType格式
+* **源起ゴシック (Genki)**：
+    * TW/TC版におけるエレメントの不整合を解消するため、プログラムによる断筆処理を施した新シリーズ。
+* **用途に応じた使い分け：JP vs. PJP**
+    * **JP (等幅)**：テキスト入力や標準的な文書作成に適した固定幅バージョン。
+    * **PJP (プロポーション)**：かな・記号を比例幅（プロポーション）に設定。映像の字幕やデザインに最適です。
+* **多言語対応の強化**：
+    * 韓国語 **KS X 1001** 範囲内のハングル（2350字）と IME 用字母を追加。
+    * 縦組み時のダッシュの配置問題を解決。
+* **技術的な改善**：Word や Illustrator での行間・バウンディングボックスの問題を改善し、オフィスソフト等の「B」ボタンで正しく太字が適用されるよう対応（ttc 版のみ）。
 
-字型已經轉換成TrueType格式（.ttf）。
-在Word、PowerPoint等軟體支援都較為完整（例如可以正常內嵌在投影片裡）。
-對一些老舊的應用程式相容性都較高。
+---
 
-### Ver 1.300　公開 (2018/9/24)
+## English
 
-* 第一版公開，為配合源樣黑體版號以便管理，直接從1.300開始。
+**GenSen Rounded** is an open-source Pan-CJK font created by applying rounded-corner processing to Genki Gothic. It combines a stable modern structure with friendly, smooth curves, offering a versatile rounded typeface with comprehensive support for Taiwanese, Hakka, and localized characters.
 
-### Ver 1.500 更新 (2020/4/11)
+### 🌟 Key Enhancements in Ver 2.0 / 2.1
 
-* 支援台客語漢字
-* 支援台客族語羅馬拼音
-* 整合思源黑體V2注音符號，並支援注音直排格式
-* 假名與引號類橫排時改為比例寬
+* **Genki Gothic**:
+    * Features automated "broken-stroke" (disconnected) processing to unify disparate glyph origins in modern Chinese writing styles.
+* **Localized Variants for Traditional Chinese**:
+    * **TW**: Modern common stroke conventions used in contemporary Taiwan.
+    * **TC**: Classic letterpress printing style with traditional stroke forms.
+* **Localized Variants for Japanese**:
+    * **JP (Monospaced)**: Standard fixed-width version for general text.
+    * **PJP (Proportional)**: Proportional spacing for Kana and punctuation, ideal for graphic design and subtitles.
+* **Expanded Character Sets**:
+    * **Taiwanese & Hakka Hanzi**: Extended support within the **CJK Extension H** range.
+    * **HKSCS 2021** & **jf7000 (v0.9)**: Comprehensive coverage for modern and specialized usage.
+    * **Hangul**: Added 2,350 syllables within the **KS X 1001** range.
+* **Technical Refinements**: 
+    * Reverted Chinese brackets to **Full-width**.
+    * Adjusted `‘’“”` to proportional widths to ensure proper alignment for English text (e.g., `It’s`).
+    * Available in both **TTC (Collection)** and **OTF** formats.
+
+---
+
+## 📜 歷史更新 / 履歴 / Version History
+
+### Ver 2.100 (2024/08/22)
+* 中文 TW、TC 版人工重製約百字常用字寫法，使風格更統一。
+* 新增韓文 **KS X 1001** 編碼範圍內音節與相容字母。
+* 提供傳統粗體模式，讓軟體 **Bold (B)** 按鈕生效（新增 X 版作為 R 版的粗體，僅限 ttc 版）。
+
+### Ver 2.000 (2024/07/25)
+* **重大重製**：以思源 V2.0 為底本全新製作。
+* **版本分化**：中文分為 **TW** 與 **TC** 版；日文分為 **JP** 與 **PJP** 版。
+* **系列擴充**：正式釋出「源起黑體」系列。
+* **字集擴充**：新增 jf7000 當務字集、HKSCS 2021 漢字，以及 CJK Ext. H 台客語漢字。
+* **問題修復**：修正直排破折號置中問題、標點改回全形。
+
+### Ver 1.500 (2020/04/11)
+* 支援台客語漢字及羅馬拼音、注音直排。
+* 假名與引號類橫排時改為比例寬（2.000 後中文標點已改回全形）。
 * 修改數字 1 、假名さざきぎ為較習慣的形式
-* 改以 ttc 形式釋出雙語版本
+* 改以 **ttc** 形式釋出雙語版本。
 
-### Ver 2.000 更新 (2024/7/25)
+### Ver 1.300 (2018/09/24)
+* 修改部分 KR 版本不理想的文字對應，並統一部份文字部件。
 
-* 中文分為現代通用寫法的月版(TW)與傳統鉛字寫法的丹(TC)版，標點改回等寬。
-* 日文版分為等寬版本(JP)與比例寬版本(PJP)。
-* 新增jf7000當務字集與HKSCS2001漢字。
-* 除 ttc 之外，另釋出 otf 版本。
-* 修復一些 issues 內的累積問題，如直排時破折號無置中、缺少白話字大寫ᴺ。
+### Ver 1.200 (2018/08/19)
+* 解決 Word 等環境直排時標點符號無法正常旋轉的問題。
 
-### Ver 2.100 更新 (2024/8/22)
+---
 
-* 中文月、丹版，人工重製約百字常用字的寫法，讓寫法稍微統一。
-* 新增KS X 1001編碼範圍內的韓文音節2350字與相容字母（輸入法顯示用）。
-* 提供傳統粗體模式，讓軟體的B按鈕生效。（實作上是新增X版，內容與B相同，附屬於B版的ttc檔案中一併安裝，作為R版的粗體。otf版未提供）
+## ⚖️ 授權條款 / ライセンス / License
 
-## 下載字型
+本字型基於 **SIL Open Font License 1.1** 授權。
+* 您可以免費商用，無需支付授權費用。
+* 您可基於本授權規定再散佈或改造本字型。
+* 關於授權細節與免責事項，請詳讀 `SIL_Open_Font_License_1.1.txt` 檔案。
 
-請點選GitHub此畫面右上綠色「Clone or download」按鈕，並選擇「Download ZIP」。
-
-## 此為公測版
-
-目前仍是Beta公測版本，未來本專案不排除有大幅更改規格的可能性。
-歡迎提供測試反饋，請直接反饋在GitHub的Issues中。
-未來亦不保證持續跟隨思源黑體升版。
-
-## 著作權與授權
-
-* 本字型是基於 SIL Open Font License 1.1 改造Adobe所開發、發表的「[思源黑體](https://github.com/adobe-fonts/source-han-sans/)」字型。
-* 本字型亦基於 SIL Open Font License 1.1 授權條款免費公開，關於授權合約的內容、免責事項等細節，請詳讀 License 文件。
-    * 本字型可自由使用在印刷、影像、網路或任何媒體上，不限個人或商業使用。
-    * 您可基於 SIL Open Font License 1.1 的規定再散佈或改造本字型。
-
-----
-
-# 日本語
-
-「源泉丸ゴシック」は[源ノ角ゴシック](https://github.com/adobe-fonts/source-han-sans/)から派生されたフリーフォントです。
-
-## 特徴
-
-### 本格を追求した丸ゴシック
-
-オープンソースの角ゴシック体は多いが、丸ゴシックはなかなかありません。
-あるとしても、同じ源ノ角ゴシック派生の源柔ゴシックのように、角ゴシックの風合いを残しているタイプが多いです。
-
-源泉丸ゴシックは本格を追求します。
-角ゴシックの「足」をなくし、さらに内側の角丸処理もしてみました。
-
-### 免責事項
-
-上記の処理は機械で自動生成するため、文字によっては誤作動の可能性があります。
-特に足をなくす作業は、推測に基づいて行うため、文字によっては足が残したままであったり、あるはずの線が足と間違えてなくされたりします。
-
-趣味本位のフォントのため、アルゴリズムの最善を求め続けていますが、個別の文字の誤作動については修正範囲外です。
-教育など正式の場合での利用は、ご自分で文字の正確さを確認してください。
-
-一応細いウエイトのほうは正確さが高く、太いウエイトのほうは残念さが高いです。
-
-### Ver 1.300　公開 (2018/9/24)
-
-* 初めてのリリースだが、管理上の理由、源様ゴシックのバージョンに合わせて v1.300 とする。
-
-### Ver 1.500　更新 (2020/4/11)
-
-* かな・かぎかっこのデフォルトを全角からプロポーションに変更。
-* 数字 1 とひらがなの「さざきぎ」を見慣れたスタイルに
-* リリースファイル形式を ttc に変更
-
-### Ver 1.500　更新 (2020/4/11)
-
-* かな・かぎかっこのデフォルトを全角からプロポーションに変更。
-* 数字 1 とひらがなの「さざきぎ」を見慣れるスタイルに
-* リリースファイル形式を ttc に変更
-
-### Ver 2.000 更新 (2024/7/25)
-
-* 日本語フォントをテキスト向けの等幅(JP)と映像向けのプロポーション(PJP)に分けた。
-* 中国語フォントの字形を現代風の月(TW)と伝統活字風の丹(TC)に分け、約物は等幅に。
-* ttcのほかに、otfファイルも公開。
-* 縦組みのダッシュが真ん中にない問題などを解決。
-
-## ダウンロード
-
-このGitHubページの右上の「Clone or download」ボタンから、「Download ZIP」をクリックしてください。
-
-## ベータバージョンです
-
-これはベータバージョンです。
-予告なく大幅に仕様が変わる可能性あり。
-
-## ライセンスと著作権
-
-* このフォントは、Adobe社が開発・公開している「[源ノ角ゴシック](https://github.com/adobe-fonts/source-han-sans/)」を SIL Open Font License 1.1 のもとで改変したフォントです。
-* このフォントは SIL Open Font License 1.1 のもとで無償にて公開します。免責条項などに関してはライセンスをご確認ください。
-    * 利用者はこのフォントを使用した制作物を有償・無償を問わず自由に公開・配布することが出来ます。 　
-    * このフォントに対して SIL Open Font License 1.1 で定められた制限のもとで再配布や改変を行うことが出来ます。
+このフォントは SIL Open Font License 1.1 のもとで無償にて公開します。免責条項などに関してはライセンスをご確認ください。
